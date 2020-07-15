@@ -43,12 +43,19 @@ base_pos5 = # Fill in the blank
 base_pos10_to_12 = # Fill in the blank
 
 # %%
+# Convert varaibles
+print(gene1)
 
+gene1_list = list(gene1)
+print(gene1_list)
+
+gene1_str = ''.join(gene_list)
+print(gene1_str)
 
 # %%
-# Change variables
+# Change variables at position 0
 gene1_mutat1 = gene1
-gene1_mutat1[0] = 't'
+gene1_mutat1[0] = 't' # This does not work. 
 
 # %%
 # Combining variables
@@ -63,7 +70,7 @@ num_t = gene1.count('t')
 # How to count number of 'cg' 
 
 # %% [markdown]
-# ## Arithmetric
+# ## Arithmetic
 # %%
 a = 4
 b = 2

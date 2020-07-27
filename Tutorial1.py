@@ -5,12 +5,12 @@
 #
 # From [guru99.com](https://www.guru99.com/variables-in-python.html), a Python variable is a reserved memory location to store values. In other words, a variable in a python program gives data to the computer for processing. Every value in Python has a datatype. Different data types in Python are Numbers, List, Tuple, Strings, Dictionary, etc. Variables can be declared by any name or even alphabets like a, aa, abc, etc.
 #
-# Below is a list of commonly-used python variables that is included in the base python installation. 
+# Below is a list of commonly-used python variables that is included in the base python installation.
 # 1. Integer - An integer datatype
 # 1. Float - A floating number datatype
 # 1. String - A text datatype
-# 1. List - A python object/container to hold different types of data 
-# 1. Cell - Another python object/container to hold different types of data 
+# 1. List - A python object/container to hold different types of data
+# 1. Cell - Another python object/container to hold different types of data
 # 1. Dictionary - Another python object/container to hold different types of data. Each data is also linked to a key.
 #
 # There are other data types included in add-on packages. Given the object-oriented nature of python, you can also create a new variable type!
@@ -36,13 +36,13 @@ gene_dict = {'gene1':gene1,'gene2':gene2}
 # %% [markdown]
 # One important skill when writing and troubleshooting code is to find out the **value, datatype and other properties** of a variable. Only when we know the variable type can we perform meaningful calculations or functions, or troubleshoot an error. For example, we can't add a string to an integer unless we first convert the string to an integer. Below are some common *functions* to parse variables:
 #
-# 1. `print` is the easiest way to \`print\` out the value of a variable on a console. 
+# 1. `print` is the easiest way to \`print\` out the value of a variable on a console.
 # 1. `type` is a way to get the data type.
 # 1. `len` is a way to get the length of a list or array.
 # 1. `help` retrieves the documentation of a particular variable.
 
 # %%
-# To view values of variables
+# To view value of variables
 a
 print(a)
 print(a,b,c,d,e)
@@ -70,7 +70,7 @@ gene_dict['gene1']
 gene_dict['gene2']
 
 # %% [markdown]
-# Note the difference between square brackets and curved brackets. To \`call\` a function, use curved brackets. To access an element, use square brackets.
+# Note the difference between square brackets and curved brackets. To 'call' a function, use curved brackets. To access an element, use square brackets.
 
 # %%
 # Convert variables
@@ -85,7 +85,11 @@ print(gene1_str)
 # %%
 # Change variables at position 0
 gene1_mutat1 = gene1
-gene1_mutat1[0] = 't' # This not work. Look for a different solution
+gene1_mutat1[0] = 't' # This will not work. Look for a different solution
+
+gene1_mutat1 = list(gene1_mutat1)
+gene1_mutat1[0]
+gene1_mutat1''.join(gene1_mutat1)
 
 # %%
 # Combining variables
@@ -109,6 +113,7 @@ a + b
 a - b
 a / b
 a * b
+a**b
 
 # %%
 # How to add 1 to all elements

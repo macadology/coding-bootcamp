@@ -3,7 +3,7 @@
 #
 # ## Variables
 #
-# From [guru99.com](https://www.guru99.com/variables-in-python.html), a Python variable is a reserved memory location to store values. In other words, a variable in a python program gives data to the computer for processing. Every value in Python has a datatype. Different data types in Python are Numbers, List, Tuple, Strings, Dictionary, etc. Variables can be declared by any name or even alphabets like a, aa, abc, etc.
+# From [guru99.com](https://www.guru99.com/variables-in-python.html), a Python variable is a reserved memory location to store values. In other words, a variable in a python program gives data to the computer for processing. Every value in Python has a datatype. Different data types in Pythogn are Numbers, List, Tuple, Strings, Dictionary, etc. Variables can be declared by any name or even alphabets like a, aa, abc, etc.
 #
 # Below is a list of commonly-used python variables that is included in the base python installation.
 # 1. Integer - An integer datatype
@@ -56,7 +56,16 @@ type(b)
 
 # %%
 # To check what length of an array
-len(a)
+len(b)
+
+# %% [markdown]
+# Terminal Shortcuts
+# [up] Access recent command
+# [down] Access recent command in reverse
+# Ctrl + A Move cursor to start
+# Ctrl + E Move cursor to end
+# Ctrl + K Delete everything
+# Ctrl + L Clear screen
 
 # %% [markdown]
 # ## Accessing and manipulating variables
@@ -89,7 +98,7 @@ gene1_mutat1[0] = 't' # This will not work. Look for a different solution
 
 gene1_mutat1 = list(gene1_mutat1)
 gene1_mutat1[0]
-gene1_mutat1''.join(gene1_mutat1)
+gene1_mutat1 = ''.join(gene1_mutat1)
 
 # %%
 # Combining variables
@@ -99,8 +108,10 @@ gene1n2_list = [gene1, gene2] + [gene3] # Combine arrays
 
 # %%
 # Count variables
+# %% [markdown]
+
 num_a = gene1.count('a') # Count the number of a
-num_t = gene1.count('t') # Count the number of ts
+num_t = gene1.count('t') # Count the number of t
 
 # %% [markdown]
 # Notice that instead of using `count(gene1,'a')`, we use `gene1.count('a')`. The former is how we call a function, the latter is how we call a method. We will discuss the distinction in a future session, but you are encourage to read about the difference online.
@@ -114,6 +125,10 @@ a - b
 a / b
 a * b
 a**b
+a % b
+#floor
+#ceil
+int
 
 # %%
 # How to add 1 to all elements

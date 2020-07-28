@@ -1,5 +1,9 @@
 # %% [markdown]
 # # Problem Set 1
+# When running the code in a new repl, you will need to install the following packages
+# 1. biopython
+# 1. logomaker
+# In repl, on the left menu, look for Packages. Search and install the required packages.
 # %%
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC

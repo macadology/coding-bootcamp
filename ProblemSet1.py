@@ -78,7 +78,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # %% [markdown]
-# Perform a blast search of accession number [AY527219](https://www.ncbi.nlm.nih.gov/nuccore/AY527219). Saves the blast results in `blast_results.xml`
+# Perform a blast search of accession number [AY527219](https://www.ncbi.nlm.nih.gov/nuccore/AY527219). Due to the time it takes to run blast in repl, I have provided a copy of the results. Saves the blast results in `blast_results.xml`.
 
 # %%
 #result_handle = NCBIWWW.qblast("blastn", "nt", "AY527219")
@@ -88,7 +88,7 @@ import pandas as pd
 #result_handle.close()
 
 # %% [markdown]
-# Load blast results. 
+# Load `blast_results.xml`. 
 #
 # **Spot the error!**
 

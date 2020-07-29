@@ -3,6 +3,7 @@
 # When running the code in a new repl, you will need to install the following packages
 # 1. biopython
 # 1. logomaker
+# 1. pandas
 # In repl, on the left menu, look for Packages. Search and install the required packages.
 # %%
 from Bio.Seq import Seq
@@ -101,8 +102,8 @@ blast_record = NCBIXML.read(result_handle)
 
 # %%
 # Extract first 120 bases of matching sequences.
-base_pos1 = 0
-base_pos2 = 120
+base_pos1 = '0'
+base_pos2 = '120'
 matches = []
 for alignment in blast_record.alignments:
     for hsp in alignment.hsps:

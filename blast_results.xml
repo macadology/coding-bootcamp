@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>AY527219.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Propionibacterium acnes putative hemolysin (tlyA) gene, complete cds</BlastOutput_query-def>
+  <BlastOutput_query-len>777</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AY527219.1</Iteration_query-ID>
+  <Iteration_query-def>Propionibacterium acnes putative hemolysin (tlyA) gene, complete cds</Iteration_query-def>
+  <Iteration_query-len>777</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1820241289|dbj|AP022845.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes SZ2 DNA, complete genome</Hit_def>
+  <Hit_accession>AP022845</Hit_accession>
+  <Hit_len>2504552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491677</Hsp_hit-from>
+      <Hsp_hit-to>1490901</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1820239045|dbj|AP022844.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes SZ1 DNA, complete genome</Hit_def>
+  <Hit_accession>AP022844</Hit_accession>
+  <Hit_len>2494525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491673</Hsp_hit-from>
+      <Hsp_hit-to>1490897</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1566416975|gb|CP025934.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes DSM 1897 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP025934</Hit_accession>
+  <Hit_len>2495002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491541</Hsp_hit-from>
+      <Hsp_hit-to>1490765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1752919477|gb|CP044255.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain ATCC 6919 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP044255</Hit_accession>
+  <Hit_len>2494216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491187</Hsp_hit-from>
+      <Hsp_hit-to>1490411</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1681032767|dbj|AP019723.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes subsp. acnes NBRC 107605 DNA, complete genome</Hit_def>
+  <Hit_accession>AP019723</Hit_accession>
+  <Hit_len>2494738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491548</Hsp_hit-from>
+      <Hsp_hit-to>1490772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1519063555|gb|CP033842.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain FDAARGOS_503 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP033842</Hit_accession>
+  <Hit_len>2494539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>35541</Hsp_hit-from>
+      <Hsp_hit-to>36317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1373293347|gb|CP023676.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain ATCC 6919 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP023676</Hit_accession>
+  <Hit_len>2495001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491543</Hsp_hit-from>
+      <Hsp_hit-to>1490767</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|966542502|gb|CP012354.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_12_1_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012354</Hit_accession>
+  <Hit_len>2491961</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491711</Hsp_hit-from>
+      <Hsp_hit-to>1490935</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|966540260|gb|CP012353.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_12_1_R1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012353</Hit_accession>
+  <Hit_len>2470017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491973</Hsp_hit-from>
+      <Hsp_hit-to>1491197</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|966537955|gb|CP012352.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_15_2_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012352</Hit_accession>
+  <Hit_len>2540008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1515065</Hsp_hit-from>
+      <Hsp_hit-to>1514289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|657118275|gb|CP006032.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes hdn-1, complete genome</Hit_def>
+  <Hit_accession>CP006032</Hit_accession>
+  <Hit_len>2494562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491505</Hsp_hit-from>
+      <Hsp_hit-to>1490729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|640911161|gb|KJ572684.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA103 hemolysin (tly) gene, complete cds &gt;gi|640911163|gb|KJ572685.1| Propionibacterium acnes strain PA105 hemolysin (tly) gene, complete cds &gt;gi|640911165|gb|KJ572686.1| Propionibacterium acnes strain PA110 hemolysin (tly) gene, complete cds &gt;gi|640911170|gb|KJ572688.1| Propionibacterium acnes strain PA114 hemolysin (tly) gene, complete cds &gt;gi|640911180|gb|KJ572692.1| Propionibacterium acnes strain PA93 hemolysin (tly) gene, complete cds &gt;gi|640911182|gb|KJ572693.1| Propionibacterium acnes strain PA92 hemolysin (tly) gene, complete cds &gt;gi|640911197|gb|KJ572699.1| Propionibacterium acnes strain PA86 hemolysin (tly) gene, complete cds &gt;gi|640911212|gb|KJ572705.1| Propionibacterium acnes strain PA81 hemolysin (tly) gene, complete cds &gt;gi|640911217|gb|KJ572707.1| Propionibacterium acnes strain PA79 hemolysin (tly) gene, complete cds &gt;gi|640911219|gb|KJ572708.1| Propionibacterium acnes strain PA78 hemolysin (tly) gene, complete cds &gt;gi|640911226|gb|KJ572711.1| Propionibacterium acnes strain PA75 hemolysin (tly) gene, complete cds &gt;gi|640911229|gb|KJ572712.1| Propionibacterium acnes strain PA74 hemolysin (tly) gene, complete cds &gt;gi|640911252|gb|KJ572722.1| Propionibacterium acnes strain PA60 hemolysin (tly) gene, complete cds &gt;gi|640911261|gb|KJ572726.1| Propionibacterium acnes strain PA55 hemolysin (tly) gene, complete cds &gt;gi|640911268|gb|KJ572729.1| Propionibacterium acnes strain PA52 hemolysin (tly) gene, complete cds &gt;gi|640911273|gb|KJ572731.1| Propionibacterium acnes strain PA50 hemolysin (tly) gene, complete cds &gt;gi|640911283|gb|KJ572735.1| Propionibacterium acnes strain PA46 hemolysin (tly) gene, complete cds &gt;gi|640911285|gb|KJ572736.1| Propionibacterium acnes strain PA45 hemolysin (tly) gene, complete cds &gt;gi|640911293|gb|KJ572739.1| Propionibacterium acnes strain PA42 hemolysin (tly) gene, complete cds &gt;gi|640911295|gb|KJ572740.1| Propionibacterium acnes strain PA41 hemolysin (tly) gene, complete cds &gt;gi|640911303|gb|KJ572743.1| Propionibacterium acnes strain PA38 hemolysin (tly) gene, complete cds &gt;gi|640911317|gb|KJ572749.1| Propionibacterium acnes strain PA31 hemolysin (tly) gene, complete cds &gt;gi|640911319|gb|KJ572750.1| Propionibacterium acnes strain PA29 hemolysin (tly) gene, complete cds &gt;gi|640911321|gb|KJ572751.1| Propionibacterium acnes strain PA28 hemolysin (tly) gene, complete cds &gt;gi|640911323|gb|KJ572752.1| Propionibacterium acnes strain PA27 hemolysin (tly) gene, complete cds &gt;gi|640911328|gb|KJ572754.1| Propionibacterium acnes strain PA25 hemolysin (tly) gene, complete cds &gt;gi|640911339|gb|KJ572759.1| Propionibacterium acnes strain PA17 hemolysin (tly) gene, complete cds &gt;gi|640911344|gb|KJ572761.1| Propionibacterium acnes strain PA106 hemolysin (tly) gene, complete cds &gt;gi|640911346|gb|KJ572762.1| Propionibacterium acnes strain PA111 hemolysin (tly) gene, complete cds &gt;gi|640911349|gb|KJ572763.1| Propionibacterium acnes strain PA77 hemolysin (tly) gene, complete cds &gt;gi|640911351|gb|KJ572764.1| Propionibacterium acnes strain PA107 hemolysin (tly) gene, complete cds &gt;gi|640911368|gb|KJ572771.1| Propionibacterium acnes strain PA12 hemolysin (tly) gene, complete cds &gt;gi|640911378|gb|KJ572775.1| Propionibacterium acnes strain PA5 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572684</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|332674398|gb|CP002409.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes 266, complete genome</Hit_def>
+  <Hit_accession>CP002409</Hit_accession>
+  <Hit_len>2494578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491568</Hsp_hit-from>
+      <Hsp_hit-to>1490792</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|51511896|gb|AY644404.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes isolate L1958 putative hemolysin (tly) gene, complete cds &gt;gi|51511916|gb|AY644414.1| Propionibacterium acnes isolate PV37 putative hemolysin (tly) gene, complete cds &gt;gi|51511934|gb|AY644423.1| Propionibacterium acnes isolate RM1 putative hemolysin (tly) gene, complete cds &gt;gi|51593080|gb|AY527219.1| Propionibacterium acnes putative hemolysin (tlyA) gene, complete cds &gt;gi|302567188|gb|HQ003356.1| Propionibacterium acnes strain CCUG50480 putative cytotoxin/hemolysin protein gene, complete cds</Hit_def>
+  <Hit_accession>AY644404</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1402.5</Hsp_bit-score>
+      <Hsp_score>1554</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>777</Hsp_identity>
+      <Hsp_positive>777</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|302567186|gb|HQ003355.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain CCUG38584 putative cytotoxin/hemolysin protein gene, complete cds</Hit_def>
+  <Hit_accession>HQ003355</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1398</Hsp_bit-score>
+      <Hsp_score>1549</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>776</Hsp_identity>
+      <Hsp_positive>776</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAAGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|51511910|gb|AY644411.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes isolate PV93 putative hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>AY644411</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1398</Hsp_bit-score>
+      <Hsp_score>1549</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>776</Hsp_identity>
+      <Hsp_positive>776</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGCGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|306450648|gb|HM461114.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain 266 Tly (tly) gene, partial cds</Hit_def>
+  <Hit_accession>HM461114</Hit_accession>
+  <Hit_len>774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1397.09</Hsp_bit-score>
+      <Hsp_score>1548</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGG</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1566419340|gb|CP025935.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes KPA171202 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP025935</Hit_accession>
+  <Hit_len>2560634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1515399</Hsp_hit-from>
+      <Hsp_hit-to>1514623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1755605466|dbj|AP019664.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes TP-CU389 DNA, complete genome</Hit_def>
+  <Hit_accession>AP019664</Hit_accession>
+  <Hit_len>2494387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>2373607</Hsp_hit-from>
+      <Hsp_hit-to>2374383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1518061020|gb|CP033718.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain FDAARGOS_577 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP033718</Hit_accession>
+  <Hit_len>2495332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1318137</Hsp_hit-from>
+      <Hsp_hit-to>1318913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1446500593|gb|CP031442.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain KCOM 1315 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP031442</Hit_accession>
+  <Hit_len>2560321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>63702</Hsp_hit-from>
+      <Hsp_hit-to>64478</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|966544767|gb|CP012355.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_15_1_R1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012355</Hit_accession>
+  <Hit_len>2493976</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491413</Hsp_hit-from>
+      <Hsp_hit-to>1490637</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|966535676|gb|CP012351.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_21_1_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012351</Hit_accession>
+  <Hit_len>2560354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1515376</Hsp_hit-from>
+      <Hsp_hit-to>1514600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|966533409|gb|CP012350.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_30_2_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012350</Hit_accession>
+  <Hit_len>2530708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1500963</Hsp_hit-from>
+      <Hsp_hit-to>1500187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|640911356|gb|KJ572766.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA102 hemolysin (tly) gene, complete cds &gt;gi|640911358|gb|KJ572767.1| Propionibacterium acnes strain PA101 hemolysin (tly) gene, complete cds &gt;gi|640911376|gb|KJ572774.1| Propionibacterium acnes strain PA6 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572766</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|640911153|gb|KJ572680.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA113 hemolysin (tly) gene, complete cds &gt;gi|640911155|gb|KJ572681.1| Propionibacterium acnes strain PA104 hemolysin (tly) gene, complete cds &gt;gi|640911157|gb|KJ572682.1| Propionibacterium acnes strain PA99 hemolysin (tly) gene, complete cds &gt;gi|640911159|gb|KJ572683.1| Propionibacterium acnes strain PA76 hemolysin (tly) gene, complete cds &gt;gi|640911168|gb|KJ572687.1| Propionibacterium acnes strain PA115 hemolysin (tly) gene, complete cds &gt;gi|640911175|gb|KJ572690.1| Propionibacterium acnes strain PA95 hemolysin (tly) gene, complete cds &gt;gi|640911177|gb|KJ572691.1| Propionibacterium acnes strain PA94 hemolysin (tly) gene, complete cds &gt;gi|640911187|gb|KJ572695.1| Propionibacterium acnes strain PA90 hemolysin (tly) gene, complete cds &gt;gi|640911189|gb|KJ572696.1| Propionibacterium acnes strain PA89 hemolysin (tly) gene, complete cds &gt;gi|640911192|gb|KJ572697.1| Propionibacterium acnes strain PA88 hemolysin (tly) gene, complete cds &gt;gi|640911202|gb|KJ572701.1| Propionibacterium acnes strain PA83ter hemolysin (tly) gene, complete cds &gt;gi|640911204|gb|KJ572702.1| Propionibacterium acnes strain PA83bis hemolysin (tly) gene, complete cds &gt;gi|640911207|gb|KJ572703.1| Propionibacterium acnes strain PA83 hemolysin (tly) gene, complete cds &gt;gi|640911209|gb|KJ572704.1| Propionibacterium acnes strain PA82 hemolysin (tly) gene, complete cds &gt;gi|640911221|gb|KJ572709.1| Propionibacterium acnes strain PA76bis hemolysin (tly) gene, complete cds &gt;gi|640911233|gb|KJ572714.1| Propionibacterium acnes strain PA72 hemolysin (tly) gene, complete cds &gt;gi|640911236|gb|KJ572715.1| Propionibacterium acnes strain PA70 hemolysin (tly) gene, complete cds &gt;gi|640911238|gb|KJ572716.1| Propionibacterium acnes strain PA69 hemolysin (tly) gene, complete cds &gt;gi|640911240|gb|KJ572717.1| Propionibacterium acnes strain PA68 hemolysin (tly) gene, complete cds &gt;gi|640911243|gb|KJ572718.1| Propionibacterium acnes strain PA67 hemolysin (tly) gene, complete cds &gt;gi|640911254|gb|KJ572723.1| Propionibacterium acnes strain PA58 hemolysin (tly) gene, complete cds &gt;gi|640911264|gb|KJ572727.1| Propionibacterium acnes strain PA54 hemolysin (tly) gene, complete cds &gt;gi|640911266|gb|KJ572728.1| Propionibacterium acnes strain PA53 hemolysin (tly) gene, complete cds &gt;gi|640911271|gb|KJ572730.1| Propionibacterium acnes strain PA64 hemolysin (tly) gene, complete cds &gt;gi|640911288|gb|KJ572737.1| Propionibacterium acnes strain PA44 hemolysin (tly) gene, complete cds &gt;gi|640911290|gb|KJ572738.1| Propionibacterium acnes strain PA43 hemolysin (tly) gene, complete cds &gt;gi|640911300|gb|KJ572742.1| Propionibacterium acnes strain PA39 hemolysin (tly) gene, complete cds &gt;gi|640911308|gb|KJ572745.1| Propionibacterium acnes strain PA34 hemolysin (tly) gene, complete cds &gt;gi|640911310|gb|KJ572746.1| Propionibacterium acnes strain PA33 hemolysin (tly) gene, complete cds &gt;gi|640911312|gb|KJ572747.1| Propionibacterium acnes strain PA32 hemolysin (tly) gene, complete cds &gt;gi|640911325|gb|KJ572753.1| Propionibacterium acnes strain PA40 hemolysin (tly) gene, complete cds &gt;gi|640911330|gb|KJ572755.1| Propionibacterium acnes strain PA23 hemolysin (tly) gene, complete cds &gt;gi|640911335|gb|KJ572757.1| Propionibacterium acnes strain PA19 hemolysin (tly) gene, complete cds &gt;gi|640911337|gb|KJ572758.1| Propionibacterium acnes strain PA18 hemolysin (tly) gene, complete cds &gt;gi|640911363|gb|KJ572769.1| Propionibacterium acnes strain PA14 hemolysin (tly) gene, complete cds &gt;gi|640911366|gb|KJ572770.1| Propionibacterium acnes strain PA13 hemolysin (tly) gene, complete cds &gt;gi|640911371|gb|KJ572772.1| Propionibacterium acnes strain PA9 hemolysin (tly) gene, complete cds &gt;gi|640911373|gb|KJ572773.1| Propionibacterium acnes strain PA7 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572680</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|481319564|gb|CP003293.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes HL096PA1, complete genome</Hit_def>
+  <Hit_accession>CP003293</Hit_accession>
+  <Hit_len>2494190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>885584</Hsp_hit-from>
+      <Hsp_hit-to>886360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|407902950|gb|CP003877.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes C1, complete genome</Hit_def>
+  <Hit_accession>CP003877</Hit_accession>
+  <Hit_len>2519002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1522149</Hsp_hit-from>
+      <Hsp_hit-to>1521373</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTCGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|365742920|gb|CP003195.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes TypeIA2 P.acn33, complete genome</Hit_def>
+  <Hit_accession>CP003195</Hit_accession>
+  <Hit_len>2489623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1482121</Hsp_hit-from>
+      <Hsp_hit-to>1481345</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|365740656|gb|CP003196.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes TypeIA2 P.acn17, complete genome</Hit_def>
+  <Hit_accession>CP003196</Hit_accession>
+  <Hit_len>2522885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1490668</Hsp_hit-from>
+      <Hsp_hit-to>1489892</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|365738411|gb|CP003197.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes TypeIA2 P.acn31, complete genome</Hit_def>
+  <Hit_accession>CP003197</Hit_accession>
+  <Hit_len>2498766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1491219</Hsp_hit-from>
+      <Hsp_hit-to>1490443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|335276409|gb|CP002815.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes 6609, complete genome</Hit_def>
+  <Hit_accession>CP002815</Hit_accession>
+  <Hit_len>2560282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1515273</Hsp_hit-from>
+      <Hsp_hit-to>1514497</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|302567192|gb|HQ003358.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain 42.1.R1 putative cytotoxin/hemolysin protein gene, complete cds</Hit_def>
+  <Hit_accession>HQ003358</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|302567190|gb|HQ003357.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain China_2.1 putative cytotoxin/hemolysin protein gene, complete cds</Hit_def>
+  <Hit_accession>HQ003357</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTCGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|291375051|gb|CP001977.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes SK137, complete genome</Hit_def>
+  <Hit_accession>CP001977</Hit_accession>
+  <Hit_len>2495334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1492776</Hsp_hit-from>
+      <Hsp_hit-to>1492000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|51511902|gb|AY644407.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes isolate W1392 putative hemolysin (tly) gene, complete cds &gt;gi|51511904|gb|AY644408.1| Propionibacterium acnes isolate LED2 putative hemolysin (tly) gene, complete cds &gt;gi|51511920|gb|AY644416.1| Propionibacterium acnes isolate RM9 putative hemolysin (tly) gene, complete cds &gt;gi|51511922|gb|AY644417.1| Propionibacterium acnes isolate W1998 putative hemolysin (tly) gene, complete cds &gt;gi|51511924|gb|AY644418.1| Propionibacterium acnes isolate CK17 putative hemolysin (tly) gene, complete cds &gt;gi|51511926|gb|AY644419.1| Propionibacterium acnes isolate WMK9 putative hemolysin (tly) gene, complete cds &gt;gi|51511928|gb|AY644420.1| Propionibacterium acnes isolate MMG9 putative hemolysin (tly) gene, complete cds &gt;gi|51511930|gb|AY644421.1| Propionibacterium acnes isolate JMK9 putative hemolysin (tly) gene, complete cds &gt;gi|51511932|gb|AY644422.1| Propionibacterium acnes isolate TON9 putative hemolysin (tly) gene, complete cds &gt;gi|302567194|gb|HQ003359.1| Propionibacterium acnes strain CCUG32901 putative cytotoxin/hemolysin protein gene, complete cds</Hit_def>
+  <Hit_accession>AY644407</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|50839098|gb|AE017283.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes KPA171202, complete genome</Hit_def>
+  <Hit_accession>AE017283</Hit_accession>
+  <Hit_len>2560265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1393.49</Hsp_bit-score>
+      <Hsp_score>1544</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1515273</Hsp_hit-from>
+      <Hsp_hit-to>1514497</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>775</Hsp_identity>
+      <Hsp_positive>775</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|640911231|gb|KJ572713.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA73 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572713</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1388.98</Hsp_bit-score>
+      <Hsp_score>1539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGGGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|640911151|gb|KJ572679.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA109 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572679</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1388.98</Hsp_bit-score>
+      <Hsp_score>1539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTATTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|51511908|gb|AY644410.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes isolate PV66 putative hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>AY644410</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1388.98</Hsp_bit-score>
+      <Hsp_score>1539</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>774</Hsp_identity>
+      <Hsp_positive>774</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|306450646|gb|HM461112.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain P6 Tly (tly) gene, partial cds</Hit_def>
+  <Hit_accession>HM461112</Hit_accession>
+  <Hit_len>774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1388.08</Hsp_bit-score>
+      <Hsp_score>1538</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>774</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>772</Hsp_identity>
+      <Hsp_positive>772</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>774</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGG</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|197259609|gb|EU687257.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain IDRL 7812 putative hemolysin (tly) gene, partial cds</Hit_def>
+  <Hit_accession>EU687257</Hit_accession>
+  <Hit_len>850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1386.27</Hsp_bit-score>
+      <Hsp_score>1536</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>773</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>771</Hsp_identity>
+      <Hsp_positive>771</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>773</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCG</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGTCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|197259611|gb|EU687258.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain IDRL 7676 putative hemolysin (tly) gene, partial cds</Hit_def>
+  <Hit_accession>EU687258</Hit_accession>
+  <Hit_len>858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1379.96</Hsp_bit-score>
+      <Hsp_score>1529</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>858</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>769</Hsp_identity>
+      <Hsp_positive>769</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>772</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTC</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGATCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|640911214|gb|KJ572706.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA80 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572706</Hit_accession>
+  <Hit_len>845</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1378.16</Hsp_bit-score>
+      <Hsp_score>1527</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>813</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>772</Hsp_identity>
+      <Hsp_positive>772</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCA---TGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|640911257|gb|KJ572724.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA57 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572724</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1312.34</Hsp_bit-score>
+      <Hsp_score>1454</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>757</Hsp_identity>
+      <Hsp_positive>757</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTTGGAAGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTCGAAGCCGGACTGGCACGTTCCCGCACCCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGCACCACCGACGTGCTGGTTGCCGACGAAGAGGTGTGGGTGTCTCGCGCTGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTACTTGATGCTGGTGCGTCCACCGGTGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGATGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCGGACCTGGCGGTTGACGGCGTTATTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATTTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGTTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCTGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTAAGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||||||| ||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|969866734|gb|CP013693.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain A1-14 chromosome</Hit_def>
+  <Hit_accession>CP013693</Hit_accession>
+  <Hit_len>2399738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1307.83</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1433401</Hsp_hit-from>
+      <Hsp_hit-to>1432625</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTTGGAAGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTCGAAGCCGGACTGGCACGTTCCCGCACCCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGCACCACCGACGTGCTGGTTGCCGACGAAGAGGTGTGGGTGTCTCGCGCTGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTACTTGATGCTGGTGCGTCCACCGGTGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGATGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCGGACCTGGCGGTTGACGGCGTTATTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATTTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGTTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCTGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTAAGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||||||| ||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|927037141|gb|CP012647.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain KCOM 1861 (= ChDC B594) chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012647</Hit_accession>
+  <Hit_len>2522438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1307.83</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1593485</Hsp_hit-from>
+      <Hsp_hit-to>1592709</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTTGGAAGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTCGAAGCCGGACTGGCACGTTCCCGCACCCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGCACCACCGACGTGCTGGTTGCCGACGAAGAGGTGTGGGTGTCTCGCGCTGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTACTTGATGCTGGTGCGTCCACCGGTGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGATGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCGGACCTGGCGGTTGACGGCGTTATTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATTTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGTTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCTGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTAAGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||||||| ||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|640911275|gb|KJ572732.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA49 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572732</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1307.83</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTTGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTCGAAGCCGGACTGGCACGTTCCCGCACCCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGCACCGCCGACGTGCTGGTTGCCGACGAAGAGGTGTGGGTGTCTCGCGCTGCACACAAACTTCTAGGTACCTTGGATATTCTTGGCGTCCACGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTATCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCGGCCTGCGGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATTTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGTTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCTGCCCTGCGCTTGCAGGCCATCGCGGGCGTCGTGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCATTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||| ||||||||||||||||||||||||||||  |||||||||||||||||| |||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|640911173|gb|KJ572689.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes strain PA96 hemolysin (tly) gene, complete cds &gt;gi|640911185|gb|KJ572694.1| Propionibacterium acnes strain PA91 hemolysin (tly) gene, complete cds &gt;gi|640911199|gb|KJ572700.1| Propionibacterium acnes strain PA84 hemolysin (tly) gene, complete cds &gt;gi|640911224|gb|KJ572710.1| Propionibacterium acnes strain PA85 hemolysin (tly) gene, complete cds &gt;gi|640911245|gb|KJ572719.1| Propionibacterium acnes strain PA65 hemolysin (tly) gene, complete cds &gt;gi|640911248|gb|KJ572720.1| Propionibacterium acnes strain PA62 hemolysin (tly) gene, complete cds &gt;gi|640911250|gb|KJ572721.1| Propionibacterium acnes strain PA61 hemolysin (tly) gene, complete cds &gt;gi|640911259|gb|KJ572725.1| Propionibacterium acnes strain PA56 hemolysin (tly) gene, complete cds &gt;gi|640911298|gb|KJ572741.1| Propionibacterium acnes strain PA51 hemolysin (tly) gene, complete cds &gt;gi|640911305|gb|KJ572744.1| Propionibacterium acnes strain PA36 hemolysin (tly) gene, complete cds &gt;gi|640911315|gb|KJ572748.1| Propionibacterium acnes strain PA31bis hemolysin (tly) gene, complete cds &gt;gi|640911332|gb|KJ572756.1| Propionibacterium acnes strain PA22 hemolysin (tly) gene, complete cds &gt;gi|640911342|gb|KJ572760.1| Propionibacterium acnes strain PA108 hemolysin (tly) gene, complete cds &gt;gi|640911354|gb|KJ572765.1| Propionibacterium acnes strain PA91bis hemolysin (tly) gene, complete cds &gt;gi|640911381|gb|KJ572776.1| Propionibacterium acnes strain PA15 hemolysin (tly) gene, complete cds &gt;gi|640911383|gb|KJ572777.1| Propionibacterium acnes strain PA98 hemolysin (tly) gene, complete cds</Hit_def>
+  <Hit_accession>KJ572689</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1307.83</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTTGGAAGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTCGAAGCCGGACTGGCACGTTCCCGCACCCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGCACCACCGACGTGCTGGTTGCCGACGAAGAGGTGTGGGTGTCTCGCGCTGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTACTTGATGCTGGTGCGTCCACCGGTGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGATGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCGGACCTGGCGGTTGACGGCGTTATTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATTTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGTTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCTGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTAAGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||||||| ||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|353454017|gb|CP003084.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes ATCC 11828, complete genome</Hit_def>
+  <Hit_accession>CP003084</Hit_accession>
+  <Hit_len>2488626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1307.83</Hsp_bit-score>
+      <Hsp_score>1449</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>777</Hsp_query-to>
+      <Hsp_hit-from>1609824</Hsp_hit-from>
+      <Hsp_hit-to>1610600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>756</Hsp_identity>
+      <Hsp_positive>756</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>777</Hsp_align-len>
+      <Hsp_qseq>ATGGATGCACCAAGGTCTCGGAGGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTTGAAGCCGGACTGGCACGTTCCCGCACTCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAAGTGAGTACCGCCGACGTGCTGGTCGCCGACGAAGAGGTGTGGGTGTCTCGCGGAGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTGCTTGATGCTGGTGCGTCCACCGGCGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCATGACCAGATGTCTCCGGTGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCAGACCTGGCGGTTGACGGCGTTGTTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATGTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGCTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCGGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCTTCTTGCTGGAACGTACGGGTCGGTGA</Hsp_qseq>
+      <Hsp_hseq>ATGGATGCACCAAGGTCTTGGAAGTGGCAGTCTGTCCCTGTGAGACTTGACCAGGCCCTTGTCGAAGCCGGACTGGCACGTTCCCGCACCCTTGCCACACGCCTAGTGCGGGAAGGCAGAGTGACGGTCAATAGAGTCGTCGTTACTAAACCGGCGATGAAGGTGAGCACCACCGACGTGCTGGTTGCCGACGAAGAGGTGTGGGTGTCTCGCGCTGCACACAAACTTCTAGGTGCCTTGGATATCCTTGGCGTCCAAGTGCCGTCAAGAGTACTTGATGCTGGTGCGTCCACCGGTGGGTTCACCCAAGTTGTGCTGTCACGGGGAGCCAAACTTGTGCATGCCGTCGATGTTGGTCACGACCAGATGTCTCCGATGCTGCGGAATGATCCCCGTGTCATTGTTCATGAAGGCTTGAACTTGCGTGATCTTCAGCCTGCGGACCTGGCGGTTGACGGCGTTATTGAGCCGGTGGACCTCGTGGTCGGAGATGTCTCTTTTATCTCCTTGACGATGATCCTTGAACCCATTTCAGCTGTTGTCAGCCCAGACGGCCTCATGCTGTTGCTGGTGAAGCCTCAATTTGAGGTTGGTCGCAAGGCTTTGGGAGCCCATGGCGTTGTCACGGACCCTGCCCTGCGCTTGCAGGCCATCGCGGGTGTCATGGCAGCAGCGGTAGATCTGGGTTGGCGTATGCGTGACGAGTGCGATAGCCCGTTGCCCGGGCAGGATGGAAACGTTGAGCACTTCGTCTTGCTGGAACGTAAGGGTCGGTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||||||||||||| ||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>59809978</Statistics_db-num>
+      <Statistics_db-len>308724962944</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

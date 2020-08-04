@@ -19,11 +19,9 @@ my_prot = Seq("AGTACACTGGTA", IUPAC.protein)
 type_of_my_seq = type(my_seq)
 type_of_my_prot = type(my_prot)
 
-
 # %%
 # Join sequences my_seq and my_seq2 into my_seq3.
 my_seq3 = my_seq + my_seq2
-
 
 # %%
 # Find the number of base T in my_seq
@@ -35,12 +33,12 @@ gc_myseq = GC(my_seq)
 
 # %%
 # Find the geometric mean of base A in my_seq and my_seq2
-gmean = (my_seq.count('a') * my_seq2.count('a'))**0.5
+gmean = (my_seq.count('A') * my_seq2.count('A'))**0.5
 
 
 # %%
 # Find the abundance of A, T, C and G in my_seq. Report the answer as a list of abundances.
-abundance_my_seq = [my_seq.count('A'),my_seq.count('T'),my_seq.count('C'),my_seq.count('G')]
+abundance_my_seq = [my_seq.count('A'), my_seq.count('T'), my_seq.count('C'),my_seq.count('G')]
 
 # %%
 # Find the abundance of A, T, C and G in my_seq. Report the answer as a numpy array of abundances.
@@ -56,7 +54,6 @@ abundance_my_seq_dict = {'A':my_seq.count('A'),
 # %%
 # Transcribe my_seq to mRNA using the method .reverse_complement()
 transcript_my_seq = my_seq.reverse_complement()
-
 
 # %%
 # Flip 5' and 3' end of my_seq

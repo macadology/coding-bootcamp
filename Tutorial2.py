@@ -8,6 +8,7 @@ from Bio.Alphabet import IUPAC
 from Bio.SeqUtils import GC
 import numpy as np
 import random
+import time
 
 # %%
 # Using the biopython package
@@ -34,12 +35,12 @@ for i in [1,2,3,4,5]:
 # Looping a range
 for j in range(5):
     print('Loop number jth')
-    print(i)
+    print(j)
 
 # Looping a cell
 for ind in (1,2,3,4,5):
-    print('Loop number jth')
-    print(i)
+    print('Loop number ind')
+    print(ind)
 
 # Looping a dictionary (more complicated)
 for key, value in {'a':1,'b':2,'c':3}.items():
@@ -51,6 +52,11 @@ a = 0
 for i in range(10):
     #a = a+1
     a += 1
+
+# Wrong
+a = 0
+for i in range(10):
+  a += 1
 
 print(a)
 
@@ -75,16 +81,18 @@ print(gene1_telomere)
 
 # %%
 a = 0
-while a < 10: # a < 10 is a conditional
+while a < 5: # a < 10 is a conditional
     a += 1
-    print('Current count: {}'.format(count))
+    print('Current count: {}'.format(a))
 
 # Fibonacci series
 a = [1, 1]
-count = 0
-while count < 10:
+counter = 0
+while counter < 10:
     a.append(a[-1]+a[-2])
-    count += 1
+    counter += 1
+    print('Current count: {}'.format(counter))
+    print(a)
 
 print(a)
 
@@ -105,22 +113,38 @@ print(gene1_telomere)
 a = 1
 b = 2
 
-a == 1
+a == 1 #is equal to
 b == 2
+b == 3
+b != 4 #not equal to
 a == b
 
 c = a + b
 c == 3
 c < 4
-c >=3
-c > 3
+c >=3 # More than or equal to
+c > 5
 
 # %%
+c = 3
+if c==3:
+  print('c is {}'.format(c))
+else:
+  print('c is not 3')
+
 a = random.randint(0,10)
 if (a % 2) == 0:
     print('{} is even'.format(a))
 else:
     print('{} is odd'.format(a))
+
+# Nested loop
+for i in range(30):
+  a = random.randint(0,10)
+  if (a % 2) == 0:
+      print('{} is even'.format(a))
+  else:
+      print('{} is odd'.format(a))
 
 # %%
 # Reverse complement
@@ -139,3 +163,17 @@ for i in gene1:
 gene1_mut = gene1_mut[::-1] #Reverse
 gene1_reversecomplement = ''.join(gene1_mut)
 print(gene1_reversecomplement)
+my_seq.reverse_complement()
+
+a = 1
+while a!=0:
+  a+=1
+  print(a)
+  time.sleep(1) #Pause for 1 second
+
+# Ctrl + C
+
+# 
+firstname = 'Ben'
+lastname = 'Lam'
+print('My name is {} {}'.format(firstname, lastname))

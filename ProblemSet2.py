@@ -3,6 +3,11 @@
 #
 # Questions are based on tutorials 2 and 3.
 #
+# # Futher reading
+# 1. [List comprehension](https://www.pythonforbeginners.com/basics/list-comprehensions-in-python#:~:text=List%20comprehensions%20provide%20a%20concise,be%20anything%2C%20meaning%20you%20can)
+# 1. [Breaking a loop](https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3)
+# 1. Check out this [guide](https://www.geeksforgeeks.org/check-multiple-conditions-in-if-statement-python/) to compare multiple conditions.
+# 1. [Alpha diversity](https://en.wikipedia.org/wiki/Diversity_index)
 # ## Set up
 # %%
 import pandas as pd
@@ -18,17 +23,9 @@ c = np.random.uniform(0,1,n) * 0.2
 d = c * 0.5 + np.random.uniform(0,1,n) * 0.1
 absolute_abundance = np.array([a,b,c,d])
 relative_abundance = absolute_abundance / absolute_abundance.sum(axis=0)
-
-# %% [markdown]
-# # Futher reading
-# 1. [List comprehension](https://www.pythonforbeginners.com/basics/list-comprehensions-in-python#:~:text=List%20comprehensions%20provide%20a%20concise,be%20anything%2C%20meaning%20you%20can)
-# 1. [Breaking a loop](https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3)
-# 1. Check out this [guide](https://www.geeksforgeeks.org/check-multiple-conditions-in-if-statement-python/) to compare multiple conditions.
-# 1. [Alpha diversity](https://en.wikipedia.org/wiki/Diversity_index)
-
 # %% [markdown]
 # # Questions 
-# 1. Loop through samples to print the relative abundance of K.pneumoniae
+# 1. Loop through samples to print the relative abundance of *K.pneumoniae*
 #
 # 1. If sample 1's *E.coli's* relative abundance is greater than 0.5, print('E.coli's rel abd is greater than 0.5')
 #

@@ -1,4 +1,4 @@
-# %% md
+# %% [markdown]
 # # Tutorial - Plotting with matplotlib and seaborn
 # # Matplotlib
 
@@ -11,9 +11,9 @@ import numpy as np
 import pandas as pd
 
 # %% Plot a line
-x = np.arange(-10,10,1)
-y = x**2
-fig = plt.plot(x,y)
+x = np.arange(-10,10,1) # Create an array
+y = x**2 #
+plt.plot(x,y)
 
 # %% Plot multiple lines
 x = np.arange(-10,10,1)
@@ -84,7 +84,6 @@ ax2.plot(x,y2,label=r'$x^2$',marker='*')
 ax3.plot(x,y3,label=r'$x^3$',linestyle='-')
 plt.legend()
 
-
 # %% Object oriented approach
 # Create canvas
 ## Axes are contained within figures
@@ -109,8 +108,9 @@ fig.suptitle('Figure title') # Set title for figure
 #plt.show() # show plots
 #plt.close('all') # close all plots
 
-# %% md
+# %% [markdown]
 # # Seaborn
+# It is an extension of matplotlib that uses the grammar of graphics to improve the ease of plotting.
 
 # %% Seaborn
 sns.set()
@@ -120,15 +120,46 @@ plt.plot(x,y2,label=r'$x^2$',marker='*')
 plt.plot(x,y3,label=r'$x^3$',linestyle='-.')
 plt.legend()
 
-# %% md
+# %% Reading code - grouped boxplots
+sns.set(style="ticks", palette="pastel")
+
+# Load the example tips dataset
+tips = sns.load_dataset("tips")
+
+# Draw a nested boxplot to show bills by day and time
+sns.boxplot(x="day", y="total_bill",
+            hue="smoker", palette=["m", "g"],
+            data=tips)
+
+sns.despine(offset=10, trim=True)
+
+# %% Reading code - grouped_barplot
+sns.set_theme(style="whitegrid")
+
+penguins = sns.load_dataset("penguins")
+
+# Draw a nested barplot by species and sex
+g = sns.catplot(
+    data=penguins, kind="bar",
+    x="species", y="body_mass_g", hue="sex",
+    ci="sd", palette="dark", alpha=.6, height=6
+)
+g.despine(left=True)
+g.set_axis_labels("", "Body mass (g)")
+g.legend.set_title("")
+
+# %% [markdown]
 # # Where to look for more information
-# https://seaborn.pydata.org/tutorial.html
-# https://matplotlib.org/3.3.1/tutorials/index.html#
+# * https://seaborn.pydata.org/tutorial.html
+# * https://matplotlib.org/3.3.1/tutorials/index.html#
+#
 # # Galleries
-# https://seaborn.pydata.org/examples/index.html
-# https://matplotlib.org/3.1.1/gallery/index.html
+# * https://seaborn.pydata.org/examples/index.html
+# * https://matplotlib.org/3.1.1/gallery/index.html
+#
 # # Other python plotting libraries
 # 1. plotly
 # 2. ggplot2
+#
 # # The grammar of graphics
 # https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149

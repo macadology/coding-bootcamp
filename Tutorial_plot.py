@@ -113,7 +113,7 @@ fig.suptitle('Figure title') # Set title for figure
 # It is an extension of matplotlib that uses the grammar of graphics to improve the ease of plotting.
 
 # %% Seaborn
-sns.set()
+sns.set_theme()
 plt.close('all')
 plt.plot(x,y1,label=r'$x$',marker='.')
 plt.plot(x,y2,label=r'$x^2$',marker='*')
@@ -121,7 +121,7 @@ plt.plot(x,y3,label=r'$x^3$',linestyle='-.')
 plt.legend()
 
 # %% Reading code - grouped boxplots
-sns.set(style="ticks", palette="pastel")
+sns.set_theme(style="ticks", palette="pastel")
 
 # Load the example tips dataset
 tips = sns.load_dataset("tips")
@@ -134,7 +134,7 @@ sns.boxplot(x="day", y="total_bill",
 sns.despine(offset=10, trim=True)
 
 # %% Reading code - grouped_barplot
-sns.set(style="whitegrid")
+sns.set_theme(style="whitegrid")
 
 penguins = sns.load_dataset("penguins")
 
@@ -146,6 +146,7 @@ g = sns.catplot(
 )
 g.despine(left=True)
 g.set_axis_labels("", "Body mass (g)")
+
 
 # %% [markdown]
 # # Where to look for more information

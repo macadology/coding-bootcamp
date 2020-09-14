@@ -134,7 +134,7 @@ sns.boxplot(x="day", y="total_bill",
 sns.despine(offset=10, trim=True)
 
 # %% Reading code - grouped_barplot
-sns.set_theme(style="whitegrid")
+sns.set(style="whitegrid")
 
 penguins = sns.load_dataset("penguins")
 
@@ -146,7 +146,6 @@ g = sns.catplot(
 )
 g.despine(left=True)
 g.set_axis_labels("", "Body mass (g)")
-g.legend.set_title("")
 
 # %% [markdown]
 # # Where to look for more information

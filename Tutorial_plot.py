@@ -1,7 +1,6 @@
 # %% [markdown]
 # # Tutorial - Plotting with matplotlib and seaborn
 # # Matplotlib
-
 # %%
 # Set up
 import matplotlib as mpl
@@ -12,17 +11,23 @@ import pandas as pd
 
 # %% Plot a line
 x = np.arange(-10,10,1) # Create an array
-y = x**2 #
-plt.plot(x,y)
+y = x**2 # Square the array
+plt.plot(x,y) # Plot a line plot
+#plt.show()
 
 # %% Plot multiple lines
 x = np.arange(-10,10,1)
 y1 = x
 y2 = x**2
 y3 = x**3
+
+# Method 1
 plt.plot(x,y1)
 plt.plot(x,y2)
 plt.plot(x,y3)
+
+# Method 2
+plt.plot(x,y1,x,y2,x,y3)
 
 # %% Figure legend
 plt.close('all')
@@ -108,6 +113,9 @@ fig.suptitle('Figure title') # Set title for figure
 #plt.show() # show plots
 #plt.close('all') # close all plots
 
+# %% Mpl Gallery
+# https://matplotlib.org/gallery/index.html
+
 # %% [markdown]
 # # Seaborn
 # It is an extension of matplotlib that uses the grammar of graphics to improve the ease of plotting.
@@ -152,6 +160,8 @@ g.set_axis_labels("", "Body mass (g)")
 # # Where to look for more information
 # * https://seaborn.pydata.org/tutorial.html
 # * https://matplotlib.org/3.3.1/tutorials/index.html#
+# * https://matplotlib.org/tutorials/introductory/pyplot.html
+
 #
 # # Galleries
 # * https://seaborn.pydata.org/examples/index.html

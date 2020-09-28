@@ -25,10 +25,14 @@ species = iris['species']
 
 # %% Importing exporting data
 # Setting up path using pathlib
+## pathlib is a library specifically for manipulating strings of directories etc. Strings work most of the time, but pathlib offers greater flexibility and functionality.
 csv_filename = Path('./iris.csv')
 excel_filename = Path('./iris.xlsx')
 
 # Writing .csv files
+## .csv files are basic filetypes for storing data. They are the simplest to interpret and can be read by many programs. However, csv files can be slow to read and write huge datasets. For most use cases though, csv files are more than sufficient.
+## Note that to write a file, use the .to_csv() method
+## to read a file, use the pd.read_csv() function
 iris.to_csv(csv_filename)
 iris_csv = pd.read_csv(csv_filename)
 iris_csv2 = pd.read_csv(csv_filename,index_col=0) # Ignores the index column
@@ -39,6 +43,9 @@ iris_excel = pd.read_excel(excel_filename)
 iris_excel2 = pd.read_excel(excel_filename, index_col=0) # Ignores the index column
 
 # %% Creating dataframe
+## Dataframe is to pandas what np.array is to numpy.
+## Dataframe has several methods useful for data exploration.
+
 # Create Series
 stem_length = abs(np.round(3 + 0.5 * np.random.normal(size = iris.shape[0]),1))
 stem_length_series = pd.Series(stem_length, name='stem_length')
@@ -70,7 +77,7 @@ type(iris.iloc[3])
 iris.index
 list(iris.index)
 
-# Get row and column
+# Get values of a particular row and column
 iris.iloc[3,0]
 iris.loc[3,'sepal_length']
 
@@ -81,9 +88,13 @@ boolean_array = iris['sepal_length'] < 6
 iris[boolean_array]
 iris[boolean_array]['sepal_length']
 
+# Iterate rows
+for ind, row in iris.iterrows():
+    print(row)
+
 # %% Add data
 # Add columns
-## Note that the input is a form of a list
+## Note that the input is in the form of a list
 iris_newcol = pd.concat([iris,stem_length_series], axis=1)
 
 # Add rows
@@ -94,6 +105,7 @@ iris_newrow = iris.append(new_sample,ignore_index=True)
 ## You can combine multiple dataframes as well
 
 # %% Manipulate data
+##
 # Creating a copy
 iris_copy1 = iris.copy()
 iris_copy2 = iris.copy()
@@ -135,10 +147,12 @@ gmean = lambda x: np.exp(np.mean(np.log(x)))
 iris['sepal_length'].apply(gmean)
 
 # Fast exploration
+## Pandas is commonly used for data exploration. .info() and .describe() are two commonly used methods to explore the data quickly.
 iris.info()
 iris.describe()
 
 # Groupby
+## Groupby creates groups based on categorical values of a particular column.
 iris_gb = iris.groupby('species')
 iris_gb.groups
 iris_gb.get_group('setosa')

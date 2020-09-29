@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
+pd.set_option('display.max_rows', 10) # Set max number of rows displayed
 from scipy.spatial.distance import pdist, squareform
 from scipy.cluster.hierarchy import linkage, dendrogram
 from pathlib import Path
@@ -51,6 +52,7 @@ stem_length = abs(np.round(3 + 0.5 * np.random.normal(size = iris.shape[0]),1))
 stem_length_series = pd.Series(stem_length, name='stem_length')
 
 # From numpy array
+iris
 iris_df1 = pd.DataFrame(np.array([sepal_length, sepal_width, petal_length, petal_width, species]).T, columns=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
 
 # From a dictionary
@@ -63,7 +65,8 @@ iris_df2 = pd.DataFrame(iris_dict)
 
 # %% Access data
 # Get column
-iris['sepal_width']
+iris
+iris['species']
 
 # Get column names
 iris.columns
@@ -90,16 +93,17 @@ iris[boolean_array]['sepal_length']
 
 # Iterate rows
 for ind, row in iris.iterrows():
-    print(row)
+    print(row[4])
 
 # %% Add data
 # Add columns
 ## Note that the input is in the form of a list
-iris_newcol = pd.concat([iris,stem_length_series], axis=1)
+iris_newcol = pd.concat([stem_length_series, iris], axis=1)
 
 # Add rows
 ## Note the difference between .concat and .append
 new_sample = pd.Series([5.2,3.5,1.6,0.3,'setosa'], index=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
+iris_newrow = pd.concat([iris, new_sample], axis=0) # Does not work
 iris_newrow = iris.append(new_sample,ignore_index=True)
 
 ## You can combine multiple dataframes as well
@@ -107,6 +111,7 @@ iris_newrow = iris.append(new_sample,ignore_index=True)
 # %% Manipulate data
 ##
 # Creating a copy
+## A copy lets you manipulate the data without affecting the original dataset.
 iris_copy1 = iris.copy()
 iris_copy2 = iris.copy()
 
@@ -114,17 +119,18 @@ iris_copy2 = iris.copy()
 iris_copy1['species'][149]='custom1'
 iris_copy1
 
-iris_copy.loc[149,'species']='custom2'
-iris_copy
+iris_copy2.loc[149,'species']='custom2'
+iris_copy2
 
 # Change NaN data
 nandf = pd.Series([np.nan for i in range(iris.shape[0])], name='nan_col')
 iris_w_nan = pd.concat([iris,nandf], axis=1)
 iris_w_nan['nan_col'].isna() #Get boolean of nan
+
 iris_w_nan['nan_col'] = iris_w_nan['nan_col'].fillna(0.1)
 
 # Round data
-iris.round({'sepal_length': 0, 'petal_length': 0})
+iris.round({'sepal_length': 1, 'petal_length': 0})
 
 # Rename columns or rows
 iris.rename(columns = {'sepal_length': 'SL', 'petal_length': 'PL'})
@@ -140,11 +146,15 @@ iris.sort_values(['sepal_length','petal_length'])
 
 # %% Explore data
 # Statistics
-iris.mean()
-iris.std()
-iris['sepal_length'].var()
-gmean = lambda x: np.exp(np.mean(np.log(x)))
-iris['sepal_length'].apply(gmean)
+iris.mean() # Calculate mean of all relevant columns
+iris.std() # Calculate standard deviation of all relevant columns
+iris['sepal_length'].var() # Calculate variance of a single column
+gmean = lambda x: np.exp(np.mean(np.log(x))) # Geometric mean
+gmean(iris['sepal_length']) # Calculate gmean of a particular column
+iris_without_species = iris.iloc[:,0:-1]
+iris_without_species.apply(gmean, axis=0) # Calculate gmean of columns
+iris_without_species.apply(gmean, axis=1) # Calculate gmean of rows
+
 
 # Fast exploration
 ## Pandas is commonly used for data exploration. .info() and .describe() are two commonly used methods to explore the data quickly.
